@@ -6,3 +6,6 @@ Este é o segundo projeto do curso <a href="https://www.theodinproject.com/about
 
 Aqui o objetivo é criar uma landing page bacana utilizando as skills adquiridas durante a seção de CSS do curso, o que involve o uso de Flexbox e suas propriedades.
 
+Você pode conferir o resultado em:
+</br>
+<a href="araujodanield.github.io/odin-landing-page/">araujodanield.github.io/odin-landing-page/</a>
