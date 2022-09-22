@@ -36,9 +36,9 @@ body {
 
 .welcome {
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 100px 10%;
-    gap: 30px;
+    gap: 50px;
 }
 
 .left {
@@ -79,3 +79,134 @@ body {
 }
 
 /*Info section*/
+.info-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info-links p {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    max-width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 8px;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.text {
+    color: #1F2937;
+    max-width: 160px;
+}
+
+/*Quote section*/
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.phrase {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.phrase p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.phrase h2 {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0 50px 0 0;
+}
+
+/*Banner section*/
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.left-side h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.left-side p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.right-side {
+    flex: none;
+}
+
+.right-side a {
+    max-width: 80px;
+    padding: 5px 35px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 35px 0;
+    font-size: 18px;
+    color: #F9FAF8;
+}
