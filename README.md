@@ -5,3 +5,5 @@
 This is the second project of <a href="https://www.theodinproject.com/about">The Odin Project</a> course.
 
 Here the objective is to create a cool landing page using the skills acquired during the CSS section of the course, with involves the use of Flexbox and its properties.
+
+<a href="https://araujodanield.github.io/odin-landing-page/" target="_blank">You can check the page clicking here!</a>
